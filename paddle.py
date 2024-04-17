@@ -5,7 +5,6 @@ MOVE_DISTANCE = 30
 
 
 class Paddle(Turtle):
-
     def __init__(self, coordinates: tuple) -> None:
         super().__init__()
         self.coord = coordinates
